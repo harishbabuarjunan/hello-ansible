@@ -5,7 +5,7 @@ Description: ND9991 C3 L4
 Resources:
   EC2Instance:
     Type: "AWS::EC2::Instance"
-    properties:
+    Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
       KeyName: ec2-mywebserver-kp
